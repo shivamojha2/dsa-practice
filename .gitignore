@@ -173,8 +173,14 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 .vscode/
-ref_repos/
 __pycache__/
 *.ipynb_checkpoints
 *.DS_Store
 plan.md
+
+# Ignore all files inside ref_repos, but allow submodules
+ref_repos/*
+!ref_repos/.gitkeep
+!ref_repos/the-algorithms
+!ref_repos/the-tech-handbook
+!ref_repos/**/.git
