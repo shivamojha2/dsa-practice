@@ -1,0 +1,6 @@
+[submodule "ref_repos/the-algorithms"]
+	path = ref_repos/the-algorithms
+	url = https://github.com/TheAlgorithms/Python.git
+[submodule "ref_repos/the-tech-handbook"]
+	path = ref_repos/the-tech-handbook
+	url = https://github.com/yangshun/tech-interview-handbook
