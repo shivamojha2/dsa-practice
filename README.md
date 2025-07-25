@@ -1,6 +1,6 @@
 # DSA Practice
 
-This repo is my structured practice ground for Data Structures and Algorithms. It's tailored to prep for ML/AI/Research Engineer interviews with focused effort and solid fundamentals.
+This repo is my structured practice ground for Data Structures and Algorithms.
 
 ## Structure
 
@@ -21,12 +21,12 @@ This repo is my structured practice ground for Data Structures and Algorithms. I
 
 | Topic            | Notes | Practice |
 |------------------|:-----:|:--------:|
-| Arrays           |  ✅   |   🔄     |
+| Arrays           |  🔄   |   🔄     |
 | Hashing          |  🔜   |   ⬜     |
-| Sliding Window   |  ✅   |   🔄     |
+| Sliding Window   |  🔄   |   🔄     |
 | Linked Lists     |  🔜   |   ⬜     |
 | Trees            |  🔜   |   ⬜     |
-| Graphs           |  ✅   |   🔄     |
+| Graphs           |  🔄   |   ⬜     |
 | Searching/Sorting|  🔜   |   ⬜     |
 | DP               |  🔜   |   ⬜     |
 
@@ -42,6 +42,3 @@ This repo is my structured practice ground for Data Structures and Algorithms. I
 - [Neetcode.io](https://neetcode.io/)
 - [The-Algorithms](https://github.com/TheAlgorithms)
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
-
----
-
