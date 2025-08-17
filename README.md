@@ -6,7 +6,6 @@ This repo is my structured practice ground for Data Structures and Algorithms.
 
 - `algorithms/` — Core algorithm types (graphs, sorting, searching)
 - `data_structures/` — Arrays, linked lists, trees, etc.
-- `problem_set/` — My solved Leetcode/other problems
 - `notes/` — Concept notes & patterns (Markdown)
 - `ref_repos/` — External references (gitignored)
 
