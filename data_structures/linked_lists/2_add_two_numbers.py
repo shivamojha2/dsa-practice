@@ -12,25 +12,27 @@ Explanation: 342 + 465 = 807.
 from typing import Optional
 from linked_lists.linked_list import ListNode
 
-## Approach - O(n) time, O(1) space.
+## Approach
+## Intuition:
+## - We need to add the two numbers digit by digit.
+## - We need to handle the carry.
+## - We need to return the result as a linked list.
+## - We need to handle the case where the two numbers have different lengths.
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        
-        
-        r = ListNode(0)
-        r_tail = r
-        c = 0
-                
-        while l1 or l2 or c:            
-            v1  = (l1.val if l1 else 0)
-            v2  = (l2.val if l2 else 0)
-
-            c, out = divmod(v1 + v2 + c, 10)    
-                      
-            r_tail.next = ListNode(out)
-            r_tail = r_tail.next                      
-            
-            l1 = (l1.next if l1 else None)
-            l2 = (l2.next if l2 else None)
-               
-        return r.next
+        dummy = ListNode(0)
+        tail = dummy
+        carry = 0
+        while l1 or l2 or carry:
+            a = l1.val if l1 else 0
+            b = l2.val if l2 else 0
+            total = a+b+carry
+            digit = total%10
+            carry = total//10
+            tail.next = ListNode(digit)
+            tail = tail.next
+            if l1:
+                l1 = l1.next
+            if l2:
+                l2 = l2.next
+        return dummy.next
